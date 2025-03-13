@@ -2,7 +2,8 @@
 #include <math.h>
 #define PI 3.14159
 
-double calc(double raio); // Prototipo
+double calc(double raio); 
+// Prototipo para a função que o compilador gere o código assembly correto
 
 int main (void) {
     double raio;
