@@ -2,9 +2,7 @@
 #include <math.h>
 #define PI 3.14159
 
-double calc(double raio) {
-    return PI * pow(raio, 2);
-}
+double calc(double raio); // Prototipo
 
 int main (void) {
     double raio;
@@ -17,4 +15,8 @@ int main (void) {
     area = calc(raio);
     printf("A=%.4f\n", area);
     return 0;
+}
+
+double calc(double raio) {
+    return PI * pow(raio, 2);
 }
