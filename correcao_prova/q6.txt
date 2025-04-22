@@ -1,0 +1,10 @@
+O que é um programa de baixo nível?
+Ela tem acesso direto ao hardware
+A linguagem C foi criada para concluir o projeto do Unix
+Os primeiros compiladores, controlador de impressora, utilitários.
+
+Porque aplicativos não são feitos em C?
+Utilizam linguagens gerenciadas, como Python, Java, JavaScript.
+Alocação e liberação de memória automática.
+Verificação durante a execução.
+Recurso de alto nível: reutilização e produtividade.

@@ -1,0 +1,5 @@
+Ponteiros: permite acesso à memória, aritmética de ponteiros, recurso de baixo nível, parâmetros por referência.
+
+Vantagem 1: acesso direto a posição de memóriana qual um dispositivo está mapeado, onde um valor pode ser compartilhado sem a necessidade de cópia.
+
+Vantagem 2: reduz código assemblyem acesso sequencial, exemplo em vetores, com acesso mais rápido.

@@ -1,0 +1,4 @@
+Diferença entre vetor de char e string:
+A string termina com \0, é um vetor de char.
+"abc" é uma string, pois termina com \0.
+O vetor de char tem contiguidade na memória.
