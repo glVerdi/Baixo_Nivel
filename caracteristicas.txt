@@ -1,0 +1,74 @@
+É uma linguegem de alto desempenho, é compilada, diferente de Java e Python que são interpretadas, tem uma camada de software entre o código fonte e a execução do código, tem um desempenho menor.
+
+Proximidade aos recursos de hardware, conseguindo manipuar a memória, consegue trabalhar com dispositivos de entrada e saída, de uma maneira muito mais específica e mais poderosa, do que em outras linguagens.
+
+A linguagem C é relevante em sistemas operacionais, sistemas desktop, sistemas embarcados, telecomunicações, etc.
+
+Incluir funcionalidades prontas que outros já programaram, se usa bibliotecas.
+
+Todo programa fica dentro da main, que é o corpo principal do código.
+
+Sempre que alterar o código, recompilar.
+
+Sempre termina com ponto e vírgula.
+
+Pra compilar um programa fazer gcc nome_do_arquivo.c -o nome_do_arquivo que quer ele salve.
+
+Executar o programa com ./nome_do_arquivo salvo.
+
+A sintáxe são as regras.
+
+A semântica tem que fazer sentido, a lógica.
+
+O compilador detecta erro sintático.
+
+A semântica é erro do programador.
+
+Debugar é executar passo a passo.
+
+Gravar informações na memória da máquina, é feito através de variáveis.
+
+Quando quero mostrar na tela números inteiros com base decimal, usar o %d.
+
+Quando quero mostrar na tela números inteiros com base hexadecimal, usar o %X.
+
+Quando quero mostrar na tela números em ponto flutuante(com casas decimais), usar o %f.
+
+Quando quero mostrar na tela números em notação científica(com casas decimais), usar o %e.
+
+Quando quero mostrar na tela uma único caractere(uma letra), usar o %c.
+
+Quando quero mostrar na tela uma sequência de letras(uma palavra), usar o %s.
+
+Quando quero mostrar na tela um número específico de casas deimais, usar o %.<num>f
+O \0 delimita que ali acabou uma sequência de caracteres.
+
+Váriaveis são espaços na memória para armazenar dados, <tipo> <nome>.
+
+tipos de dados mais comuns:
+    char - carrega texto, ocupa 8 bits na memória, consegue representar entre -127 e 127
+    int (short) - carrega inteiro, ocupa 16 bits na memória, consegue representar entre -32.768 e 32.767
+    int (long) - carrega inteiro, ocupa 32 bits na memória, consegue representar entre -2.147.483.648 e 
+    2.147.483.647, é o mais comum.
+    float - carrega números com casas decimais, ocupa 32 bits na memória, consegue representar entre 
+    3,4x10^-38 e 3,4x10^38.
+    double - carrega números com duas casas decimais, ocupa 64 bits na memória, consegue representar entre 
+    1,7x10^-308 e 1,7x10^308.
+
+Atribuição de conteúdo conhecido na variável <variável> = <informação>.
+
+Constante permite que aquela variável não se altere ao decorrer do código, coloca no início #define <nome> <informação>.
+
+Operadores de atribuição aritmética:
+    Incremento em uma unidade: ++
+    Decreemento em uma unidade: --
+    Incremento genérico: +=
+    Decremento genérico: -=
+    Atribuição com multiplicação: *=
+    Atribuição com divisão: /=
+
+Operadores lógicos:
+    Conjunção - &&, é verdade quando tudo for verdade.
+    Disjunção - ||, é verdade se ao menos um for verdade.
+    Negação - !, é verdade quando o operando é falso.
+
