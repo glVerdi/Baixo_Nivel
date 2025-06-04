@@ -72,3 +72,30 @@ Operadores lógicos:
     Disjunção - ||, é verdade se ao menos um for verdade.
     Negação - !, é verdade quando o operando é falso.
 
+Vetores (arrays) são estruturas de dados, conseguindo salvar vários dados com valores distintos dentro de uma mesma "variável". Um índice único que controla as posições. Declaração <tipo> <nomr>[<tamanho>];
+Se o vetor tem 3 posições, os índice vão de 0 até 2.
+Temos que acessar por posição a posição. <nome>[<índice>]. Posso preencher todo o vetor na hora da declaração <tipo> <nomr>[<tam.>] = {<v1>, <v2>, ..., <vn>};
+A linguagem permite extrapolar o índice do vetor
+
+Strings são vetores de char, assim conseguimos armazenar palavras inteiras e não somente letras. Na última posição vai o \0, (caractere nulo), diz que ali se encerra o texto, por causa disso terá que ter uma posição a mais, por exemplo se quiser armazenar um vetor de char com 10 10 letras, terá que ter 11 posições.
+
+Colocar no scanf o %s para o usuário digitar uma string, não precisa do & depois
+Colocar no pritf o %s para imprimir na tela uma string
+fflush(stdin); Serve para que a próxima leitura de dados não de problema, especificamente quando é float e char, da uma "descarga" no buffer de memória, colocar sempre quando tem um scanf(), gets() e fgets()
+
+O gets() também é uma função para fazer entrada de dados, deixa a gente ler mais caracteres do que o tamanhio propriamente dito gets(<string>);
+
+o fgets() também é uma função para fazer entrada de dados, permite que coloque o nome da string, ja limite o tamanho dele diretamente no parâmetro da função, pegando os dados do teclado como padrão e o último caractere fica reservado para o '\0' fgets(<string>, <tam>, stdin);
+
+O puts() também é uma função para fazer a saída de dados, imprimindo na tela uma string, exige que o parâmetro seja uma string, puts(<string>);
+
+Temos que enxergar a string como ela fica em memória e por isso temos que usar a biblioteca <string.h>
+Para modificar o conteúdo de uma string, fazer uma "atribuição" com uma string depende da função strcpy(<destino>, <origem>);, não se altera com =, se altera com strcpy
+
+Quando se quer colar uma string na outra se usa strcat(<destino>, <origem>);
+
+Para mostrar qual é o comprimento da string usar o strlen(<string>);
+
+Para comparação de strings, usar strcmpi(<string1>, string2>);, sendo estritamente iguais retorna 0
+
+Usar a biblioteca <locale.h>, irá se permitir colocar acentos, dentro do main colocar  setlocale(LC_ALL, "Portuguese");
