@@ -101,3 +101,5 @@ Para comparação de strings, usar strcmpi(<string1>, string2>);, sendo estritam
 Usar a biblioteca <locale.h>, irá se permitir colocar acentos, dentro do main colocar  setlocale(LC_ALL, "Portuguese");
 
 Matrizes são como vetores, pode navegar por índices e para índice que acessamos um dado diferente em uma posição diferente dessa matriz. É no mínimo bidimensional, podendo navegar em uma ou duas dimensões, navegar entre as linhas e as colunas <tipo> <nome>[<dim1>], [<dime2>], ... [<dimeN>];
+
+structs é um tipo de estrutura de dados, que permite que criamos um novo tipo de dados, posso armazenar dados de tipos destintos. Define um novo tupo de dado com o typedef, renomear tipos de dados, acessar os campos dessa struct, usando <variável>.<campo>. É muito comum ter vetor de structs
